@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ select {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 11 */
+
+}
+
+
+
+select::-webkit-scrollbar {
+    width: 0;
+} 
+
